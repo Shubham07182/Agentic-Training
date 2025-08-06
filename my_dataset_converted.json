@@ -1,0 +1,157 @@
+
+
+
+[
+  {
+    "prompt": "Write a Python function to reverse a string.",
+    "response": "def reverse_string(s):\n    return s[::-1]"
+  },
+  {
+    "prompt": "Write a Python function to check if a number is prime.",
+    "response": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True"
+  },
+  {
+    "prompt": "Write a Python function to compute factorial of a number.",
+    "response": "def factorial(n):\n    return 1 if n == 0 else n * factorial(n - 1)"
+  },
+  {
+    "prompt": "Write a Python function to check for palindrome strings.",
+    "response": "def is_palindrome(s):\n    return s == s[::-1]"
+  },
+  {
+    "prompt": "Write a Python function to find the maximum number in a list.",
+    "response": "def find_max(lst):\n    return max(lst)"
+  },
+  {
+    "prompt": "Write a Python function to sort a list of numbers.",
+    "response": "def sort_numbers(lst):\n    return sorted(lst)"
+  },
+  {
+    "prompt": "Write a Python function to return the Fibonacci sequence up to n.",
+    "response": "def fibonacci(n):\n    a, b = 0, 1\n    seq = []\n    while a < n:\n        seq.append(a)\n        a, b = b, a + b\n    return seq"
+  },
+  {
+    "prompt": "Write a Python function to count vowels in a string.",
+    "response": "def count_vowels(s):\n    return sum(1 for char in s if char.lower() in 'aeiou')"
+  },
+  {
+    "prompt": "Write a Python function to merge two dictionaries.",
+    "response": "def merge_dicts(a, b):\n    return {**a, **b}"
+  },
+  {
+    "prompt": "Write a Python function to calculate the square root of a number.",
+    "response": "import math\ndef square_root(x):\n    return math.sqrt(x)"
+  },
+  {
+    "prompt": "Write a Python function to reverse a string.",
+    "response": "def reverse_string(s):\n    return s[::-1]"
+  },
+  {
+    "prompt": "Write a Python function to check if a number is prime.",
+    "response": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True"
+  },
+  {
+    "prompt": "Write a Python function to compute factorial of a number.",
+    "response": "def factorial(n):\n    return 1 if n == 0 else n * factorial(n - 1)"
+  },
+  {
+    "prompt": "Write a Python function to check for palindrome strings.",
+    "response": "def is_palindrome(s):\n    return s == s[::-1]"
+  },
+  {
+    "prompt": "Write a Python function to find the maximum number in a list.",
+    "response": "def find_max(lst):\n    return max(lst)"
+  },
+  {
+    "prompt": "Write a Python function to sort a list of numbers.",
+    "response": "def sort_numbers(lst):\n    return sorted(lst)"
+  },
+  {
+    "prompt": "Write a Python function to return the Fibonacci sequence up to n.",
+    "response": "def fibonacci(n):\n    a, b = 0, 1\n    seq = []\n    while a < n:\n        seq.append(a)\n        a, b = b, a + b\n    return seq"
+  },
+  {
+    "prompt": "Write a Python function to count vowels in a string.",
+    "response": "def count_vowels(s):\n    return sum(1 for char in s if char.lower() in 'aeiou')"
+  },
+  {
+    "prompt": "Write a Python function to merge two dictionaries.",
+    "response": "def merge_dicts(a, b):\n    return {**a, **b}"
+  },
+  {
+    "prompt": "Write a Python function to calculate the square root of a number.",
+    "response": "import math\ndef square_root(x):\n    return math.sqrt(x)"
+  },
+  {
+    "prompt": "Write a Python function to reverse a string.",
+    "response": "def reverse_string(s):\n    return s[::-1]"
+  },
+  {
+    "prompt": "Write a Python function to check if a number is prime.",
+    "response": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True"
+  },
+  {
+    "prompt": "Write a Python function to compute factorial of a number.",
+    "response": "def factorial(n):\n    return 1 if n == 0 else n * factorial(n - 1)"
+  },
+  {
+    "prompt": "Write a Python function to check for palindrome strings.",
+    "response": "def is_palindrome(s):\n    return s == s[::-1]"
+  },
+  {
+    "prompt": "Write a Python function to find the maximum number in a list.",
+    "response": "def find_max(lst):\n    return max(lst)"
+  },
+  {
+    "prompt": "Write a Python function to sort a list of numbers.",
+    "response": "def sort_numbers(lst):\n    return sorted(lst)"
+  },
+  {
+    "prompt": "Write a Python function to return the Fibonacci sequence up to n.",
+    "response": "def fibonacci(n):\n    a, b = 0, 1\n    seq = []\n    while a < n:\n        seq.append(a)\n        a, b = b, a + b\n    return seq"
+  },
+  {
+    "prompt": "Write a Python function to count vowels in a string.",
+    "response": "def count_vowels(s):\n    return sum(1 for char in s if char.lower() in 'aeiou')"
+  },
+  {
+    "prompt": "Write a Python function to merge two dictionaries.",
+    "response": "def merge_dicts(a, b):\n    return {**a, **b}"
+  },
+  {
+    "prompt": "Write a Python function to calculate the square root of a number.",
+    "response": "import math\ndef square_root(x):\n    return math.sqrt(x)"
+  },
+  {
+    "prompt": "Write a Python function to reverse a string.",
+    "response": "def reverse_string(s):\n    return s[::-1]"
+  },
+  {
+    "prompt": "Write a Python function to check if a number is prime.",
+    "response": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True"
+  },
+  {
+    "prompt": "Write a Python function to compute factorial of a number.",
+    "response": "def factorial(n):\n    return 1 if n == 0 else n * factorial(n - 1)"
+  },
+  {
+    "prompt": "Write a Python function to check for palindrome strings.",
+    "response": "def is_palindrome(s):\n    return s == s[::-1]"
+  },
+  {
+    "prompt": "Write a Python function to find the maximum number in a list.",
+    "response": "def find_max(lst):\n    return max(lst)"
+  },
+  {
+    "prompt": "Write a Python function to sort a list of numbers.",
+    "response": "def sort_numbers(lst):\n    return sorted(lst)"
+  },
+  {
+    "prompt": "Write a Python function to return the Fibonacci sequence up to n.",
+    "response": "def fibonacci(n):\n    a, b = 0, 1\n    seq = []\n    while a < n:\n        seq.append(a)\n        a, b = b, a + b\n    return seq"
+  },
+  {
+    "prompt": "Write a Python function to count vowels in a string.",
+    "response": "def count_vowels(s):\n    return sum(1 for char in s if char.lower() in 'aeiou')"
+  }
+]
